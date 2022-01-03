@@ -5,10 +5,11 @@
 * templates contain the html file source<br>
 * app.py is the main python file source<br>
 * Processed data folder contains the data used in plotting the plots<br>
+* Data_PreProcessing.ipynb is the colab notebook used in creating the dataset for plotting<br>
 * Procfile and requirements.txt are the files used in deploying the application<br>
 
 **Generating Data**<br>
-I made use of google colab notebook to generate the false data. You can find the data used in 'Raw data' folder. Then again using, google colab, I did data preprocessing and downloaded 4 datasets for plotting our desired graphs. Since, I just needed fake data, for TVL, I used sum() and for Volume 24H, I used average() of data values.<br>
+I made use of google colab notebook to generate the false data. You can find the data used in 'Raw data' folder (single source is used). Then again using, google colab, I did data preprocessing and downloaded 4 datasets for plotting our desired graphs. Since, I just needed fake data, for TVL, I used sum() and for Volume 24H, I used average() of data values.<br>
 
 **Passing data:**<br>
 I have used flask to make the server and used python to fetch the data and then pass it to html file. Doing this, in future, if any preprocessing, is still required then one can easily do it using python.
