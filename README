@@ -1,5 +1,12 @@
+Raw data folder contains the data source
+static/styles contains the css file source
+templates contain the html file source
+app.py is the main python file source
+Processed data folder contains the data used in plotting the plots
+Procfile and requirements.txt are the files used in deploying the application
+
 Generating Data:
-I made use of google colab notebook to generate the false data. You can find the data used in 'Raw Data' folder. Then again using, google colab, I did data preprocessing and downloaded 4 datasets for plotting our desired graph. Since, I just needed fake data, for TVL, I used sum() and for Volume 24H, I used average() of data values.
+I made use of google colab notebook to generate the false data. You can find the data used in 'Raw data' folder. Then again using, google colab, I did data preprocessing and downloaded 4 datasets for plotting our desired graph. Since, I just needed fake data, for TVL, I used sum() and for Volume 24H, I used average() of data values.
 
 Passing data:
 I have used flask to make the server and used python to fetch the data and then pass it to html file. Doing this, in future, if any preprocessing, is still required then one can easily do it using python.
