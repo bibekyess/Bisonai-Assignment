@@ -1,0 +1,71 @@
+
+.header {
+  width: width;
+  color: white;
+  height: 100px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center ;
+  margin-top: 2%;
+  font-family: sans-serif;
+}
+
+.bar {
+  fill: dodgerblue;
+}
+  
+#test1, #test {
+  font-weight: bold;
+  /* background: rgba(0, 0, 0, 0.8); */
+  margin-top: 0px;
+  color: #fff;  
+  font-size: 30px;
+  font-family: "Inter var", sans-serif
+}
+  
+.test-flex-box {
+  display: flex;
+  margin:40px 100px 0 0;
+  /* border-top: 40px solid transparent; */
+  flex-direction: row;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  /* float: right; */
+  column-gap: 10px;
+}
+
+
+.line {
+  fill: none;
+  stroke: fuchsia;
+  stroke-width: 3px;
+}
+
+.area {							
+  fill: url(#area-gradient);					
+  stroke-width: 0px;			
+}
+  
+/* It is needed to disable the grey-bar plots at the beginning */
+.hover-bar {
+  opacity: 0; 
+}
+  
+.hovered {
+  opacity: 0.7;
+  fill: grey;
+}
+.svg-component {
+  background-color: rgb(2, 17, 31);
+}
+
+/* Coloring white for the axis values */
+text {
+  fill : white;
+  font-size: 18px;
+  font-family: "Inter var", sans-serif
+}
+  /* .btn-secondary, .btn-secondary:hover, .btn-secondary:active, .btn-secondary:visited, .btn-secondary:focus, .btn-secondary:active:focus {
+    background-color: #8064A2;} */
